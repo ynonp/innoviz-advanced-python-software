@@ -33,3 +33,6 @@ https://www.tocode.co.il/bundles/advanced-python3/lessons/generators
    
 4. Decorators
 https://www.tocode.co.il/bundles/advanced-python3/lessons/decorators
+   
+5. Exercises and Homework:
+https://www.tocode.co.il/bundles/advanced-python3/lessons/functions-lab
