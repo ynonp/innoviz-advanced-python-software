@@ -3,18 +3,19 @@ Hello All :)
 Advanced Python Course for Software Developers
 Ynon Perek
 
-We Start at 10:00
+We Return at 10:42
+
 
 
 Agenda for today:
 
 1. Project Structure
   - Multiple files in the same program
+  - Testing (pytest)
   - Object Oriented Code
   - Defining and using classes
   - Magic methods
   - with statement
-  - Testing (pytest)
   - Inheritance
 
 2. Python Package Management

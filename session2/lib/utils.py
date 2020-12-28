@@ -3,4 +3,6 @@ import config
 def square(x):
     return x * x
 
-print(config.program_name())
+
+if __name__ == '__main__':
+    print(config.program_name())
