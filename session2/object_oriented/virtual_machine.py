@@ -5,7 +5,6 @@ class VirtualMachine:
         self.ip = 0
 
     def add(self, n):
-        self.accumulator += n
         self.commands.append(Command("add", n))
 
     def skip(self, n):
