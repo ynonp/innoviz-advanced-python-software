@@ -1,0 +1,70 @@
+## Session 1
+
+1. Type Hints
+https://www.tocode.co.il/bundles/advanced-python3/lessons/type-hints
+   
+2. Functions
+https://www.tocode.co.il/bundles/advanced-python3/lessons/variadic-functions
+   
+3. Generators
+https://www.tocode.co.il/bundles/advanced-python3/lessons/generators
+   
+4. Decorators
+https://www.tocode.co.il/bundles/advanced-python3/lessons/decorators
+   
+5. Exercises and Homework:
+https://www.tocode.co.il/bundles/advanced-python3/lessons/functions-lab
+
+-----------------------------------------
+
+## Session 2
+
+1. Project Structure
+  - Object Oriented Code
+  - Defining and using classes
+  - Magic methods
+  - with statement
+  - Testing (pytest)
+  - Inheritance
+
+2. Python Package Management
+  - Installing multiple python versions with pyenv
+  - Creating a virtual environment with venv
+  - Creating a virtual environment with PyCharm
+  - Freezing a virtual environment
+  - Install a virtual environment from rqeuirements.txt
+
+  - Creating a virtual conda environment
+
+## Session 3
+
+1. Hello NumPy
+  - Installation and concepts
+  - Indexes and slices
+  - Boolean masks
+  - Data types
+  - Broadcasting
+
+2. Hello Pandas
+  - Creating, Reading and writing Data Frames
+  - Data Frames and Series
+  - Indexes and Slices
+  - Grouping and Filtering
+  - Aggregation
+  - Visualisations
+
+## Session 4
+
+1. Multiple Processes / Concurrency
+  - Writing a multithreaded program with the threading module
+  - Python GIL and locking
+  - Writing a multi-process program with the multiprocessing module
+  
+2. Integrating Python with C/C++ Code
+  - Python's ctypes
+  - Accessing functions from loaded DLLs
+  - Moving data between python/c
+  - Writing a Python C Extension
+
+
+

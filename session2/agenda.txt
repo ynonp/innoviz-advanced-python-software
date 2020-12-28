@@ -1,0 +1,25 @@
+Hello All :)
+
+Advanced Python Course for Software Developers
+
+We Start at 10:00
+
+
+Agenda for today:
+
+1. Project Structure
+  - Object Oriented Code
+  - Defining and using classes
+  - Magic methods
+  - with statement
+  - Testing (pytest)
+  - Inheritance
+
+2. Python Package Management
+  - Installing multiple python versions with pyenv
+  - Creating a virtual environment with venv
+  - Creating a virtual environment with PyCharm
+  - Freezing a virtual environment
+  - Install a virtual environment from rqeuirements.txt
+
+  - Creating a virtual conda environment

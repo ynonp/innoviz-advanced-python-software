@@ -1,0 +1,53 @@
+## Writing and Testing Classes
+
+Create classes to solve the following exercise:
+https://adventofcode.com/2020/day/8
+
+1. A class called VM that will be able to execute commands (and save the commands it executed)
+
+2. A class called Command that represents a command to execute with its parameters
+
+3. A class called Parser that reads the file and returns a list of Commands
+
+4. Comparing two commands should yield correct result
+
+5. Add the following tests:
+
+  - Parse a file and verify the Parser worked and commands are correct
+  - Create a "nop" Command, execute it and make sure it worked (i.e. did nothing)
+  - Create a "jmp" Command, execute it and make sure it worked (i.e. the machine's instruction pointer has changed)
+  - Create an "acc" Command with a positive value and make sure you can execute it
+  - Create an "acc" Command with a negative value and make sure you can execute it
+  - Create two equal commands, and use "==" to verify they are equal
+  - Run an infinite loop and make sure VM catches it and stops
+
+6. Solve the exercise with the classes you have
+
+
+
+
+
+
+## Address Book
+
+Create a class called AddressBook that will save email addresses of contacts. The class should support the following interface:
+
+```
+with AddressBook('contacts.txt') as ab:
+    ab.add('Eve', 'eve@gmail.com')
+    ab.add('Alice', 'alice@walla.co.il')
+    print(ab['Eve'])
+
+with AddressBook('contacts.txt') as ab:
+    print(ab.email('Eve'))
+```
+
+1. Every time we enter a "with" block the class should read all contact information from the provided file
+
+2. The function `email` should return the email of a contact item
+
+3. Square brackets should return the email of a contact item
+
+4. The function `add` should add a contact item to the list
+
+5. Every time we exit a "with" block the data should be written back to the file
