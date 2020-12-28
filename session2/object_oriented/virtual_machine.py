@@ -8,8 +8,8 @@ class VirtualMachine:
         self.accumulator += n
         self.commands.append(Command("add", n))
 
-    def jmp(self, n):
-        self.commands.append(Command("jmp", n))
+    def skip(self, n):
+        self.commands.append(Command("skip", n))
 
     def nop(self):
         self.commands.append(Command("nop"))
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     vm = VirtualMachine()
     vm.add(10)
     vm.add(20)
-    vm.jmp(2)
+    vm.skip(1)
     vm.add(30)
     vm.add(40)
     vm.nop()

@@ -13,7 +13,7 @@ def test_with_jumps():
     vm = virtual_machine.VirtualMachine()
     vm.add(10)
     vm.add(20)
-    vm.jmp(2)
+    vm.skip(1)
     vm.add(30)
     vm.add(40)
     vm.nop()
