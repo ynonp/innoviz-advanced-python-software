@@ -1,6 +1,7 @@
 Hello All :)
 
 Advanced Python Course for Software Developers
+Ynon Perek
 
 We Start at 10:00
 
@@ -8,6 +9,7 @@ We Start at 10:00
 Agenda for today:
 
 1. Project Structure
+  - Multiple files in the same program
   - Object Oriented Code
   - Defining and using classes
   - Magic methods
