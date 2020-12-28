@@ -16,11 +16,38 @@ class VirtualMachine:
     def run(self):
         while self.ip < len(self.commands):
             cmd = self.commands[self.ip]
-            # ???
+            cmd.run(self)
             self.ip += 1
 
-class Command:
-    pass
+
+def Command(command_name, *params):
+    if command_name == 'add':
+        return CommandAdd(params[0])
+    elif command_name == 'skip':
+        return CommandSkip(params[0])
+    elif command_name == 'nop':
+        return CommandNop()
+
+
+class CommandAdd:
+    def __init__(self, n):
+        self.n = n
+
+    def run(self, vm):
+        vm.accumulator += self.n
+
+
+class CommandSkip:
+    def __init__(self, n):
+        self.n = n
+
+    def run(self, vm):
+        vm.ip += self.n
+
+
+class CommandNop:
+    def run(self, vm):
+        pass
 
 
 if __name__ == '__main__':
