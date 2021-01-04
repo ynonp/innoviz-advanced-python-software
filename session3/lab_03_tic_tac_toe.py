@@ -34,8 +34,19 @@ def diag2(board):
 # Return True if somebody (X or O) won
 # Use boolean masks, np.all, slices
 def has_winner(board):
-    pass
+    for i in range(3):
+        if np.all(row(board, i) == 'O') or np.all(row(board, i) == 'X'):
+            return True
 
+        if np.all(column(board, i) == 'O') or np.all(column(board, i) == 'X'):
+            return True
 
+    if (np.all(diag1(board) == 'O')) or (np.all(diag1(board) == 'X')):
+        return True
+
+    if (np.all(diag2(board) == 'O')) or (np.all(diag2(board) == 'X')):
+        return True
+
+    return False
 
 
