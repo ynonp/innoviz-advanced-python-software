@@ -38,7 +38,7 @@ https://www.tocode.co.il/bundles/advanced-python3/lessons/functions-lab
 
 ## Session 3
 
-1. Hello NumPy
+1. Hello NumPy - Multi Dimensional Arrays
   - Installation and concepts
   - Indexes and slices
   - Boolean masks

@@ -1,0 +1,20 @@
+## Advanced Python For Developers - Ynon Perek
+
+Session 3 - Working with Data
+
+Agenda for today:
+
+    1. Hello NumPy
+      - Installation and concepts
+      - Indexes and slices
+      - Boolean masks
+      - Data types
+      - Broadcasting
+
+    2. Hello Pandas
+      - Creating, Reading and writing Data Frames
+      - Data Frames and Series
+      - Indexes and Slices
+      - Grouping and Filtering
+      - Aggregation
+      - Visualisations

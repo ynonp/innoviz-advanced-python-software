@@ -3,7 +3,6 @@ Hello All :)
 Advanced Python Course for Software Developers
 Ynon Perek
 
-We Return at 10:42
 
 
 
@@ -17,6 +16,16 @@ Agenda for today:
   - Magic methods
   - with statement
   - Inheritance
+
+
+Python 3.9
+    Why not install ALL libraries from ALL projects?
+    1. It's harder to GIVE the script
+    2. Collisions between dependencies
+
+    => NumPy, Pandas
+    => Flask
+    => p5
 
 2. Python Package Management
   - Installing multiple python versions with pyenv
