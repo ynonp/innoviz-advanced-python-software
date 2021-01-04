@@ -27,9 +27,15 @@ def diag2(board):
     return board[[0, 1, 2], [2, 1, 0]]
 
 
+
+# Then implement has_winner
+# (when done write in chat so we'll know to proceed)
+
 # Return True if somebody (X or O) won
 # Use boolean masks, np.all, slices
 def has_winner(board):
     pass
+
+
 
 
