@@ -18,3 +18,19 @@ Agenda for today:
       - Grouping and Filtering
       - Aggregation
       - Visualisations
+
+///////////////////////////
+
+pd.Series
+
+pd.DataFrame
+
+
+
+
+
+
+
+
+
+
