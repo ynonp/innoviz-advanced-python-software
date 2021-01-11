@@ -1,0 +1,29 @@
+Hello and Welcome :)
+
+Advanced Python Course - Session 4
+
+Ynon Perek
+
+We Start at 10:00
+
+
+
+
+
+Daily Agenda - Performance:
+
+    1. Using multiple threads in Python
+    - Run multiple "stuff" at the same time
+    - Make better use of computing resources
+    - GIL: Global Interpreter Lock
+        + Communicate with external hardware
+        + Network
+        - CPU code / calculations
+        (asyncio)
+        * https://www.tocode.co.il/past_workshops/89
+
+    2. Using multiprocessing module
+
+    3. Using C libraries
+
+    4. Writing C Extensions
