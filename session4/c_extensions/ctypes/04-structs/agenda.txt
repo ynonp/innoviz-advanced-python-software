@@ -1,6 +1,7 @@
 # Structure and Pointers
 
-1. Many C functions expect to receive or return structures, so ctypes has built-in support for them.
+1. Many C functions expect to receive or return structures,
+    so ctypes has built-in support for them.
 
 2. We define a structure by creating a class inheriting Structure.
 

@@ -1,13 +1,19 @@
 # Python <-> C Data Types
 
-The library ctypes defines many wrapper objects for common type conversion between python and C.
+The library ctypes defines many wrapper objects for common type
+conversion between python and C.
 
-They are conveniently named c_<type>, for example: c_double, c_int, c_short, c_byte, c_void_p, c_char_p.
+They are conveniently named c_<type>, for example:
+c_double, c_int, c_short, c_byte, c_void_p, c_char_p.
+
 Full list is here:
 https://docs.python.org/3/library/ctypes.html#fundamental-data-types
 
-We use `function.restype = <type>` to tell ctypes what the return type of a function is.
-We use `function.argtypes = [<type>, <type>, ...] to tell ctypes what input arguments are expected.
+We use `function.restype = <type>` to tell ctypes what the return
+type of a function is.
+
+We use `function.argtypes = [<type>, <type>, ...] to tell ctypes what
+input arguments are expected.
 
 //////////////////////
 

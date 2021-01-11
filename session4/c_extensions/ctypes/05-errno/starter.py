@@ -6,7 +6,7 @@ libc_location = find_library('c')
 libc = CDLL(libc_location, use_errno=True)
 
 libc.fopen.restype = c_void_p
-fh = libc.fopen(b"demo.txt", "w")
+fh = libc.fopen(b"demo.txt", "r")
 print(fh)
 
 if fh is None:

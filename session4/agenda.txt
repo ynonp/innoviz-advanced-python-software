@@ -10,6 +10,7 @@ We Start at 10:00
 
 
 
+
 Daily Agenda - Performance:
 
     1. Using multiple threads in Python
