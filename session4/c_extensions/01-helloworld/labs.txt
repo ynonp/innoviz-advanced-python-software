@@ -1,0 +1,21 @@
+To build the extension we use:
+
+$ python setup.py build
+
+~~~~~~~~~~~~~
+C/Python API
+~~~~~~~~~~~~~
+
+1. Write a function to calculate the n-th fibonacci number in C and in Python
+   Which one is faster? the C implementation or python?
+   What are the limitations of your C implementation?
+
+2. Write a C function to reverse a string
+
+3. Write a C function larger_than that takes a number n and a list of values and
+   returns a list of all values larger than n
+
+4. Write a C function that returns a random number
+
+5. Write a C function that returns a list of 5 random numbers
+
